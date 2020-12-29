@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary conversor</title>
+    <link rel="stylesheet" href="../CSS/final-model.css">
+</head>
+<body>
+    <div>
+        <h1 id="title">Conversor de código binário</h1>
+
+        <header>Código para número:</header>
+        <img 
+        id = "input-img"
+        src="../IMAGES//binary-code.png"
+        alt = "code"
+        >
+        
+        <input 
+        id = "input-number"
+        placeholder="Insira o código aqui"
+        maxlength="32"
+        minlength="1"
+        >
+       
+    
+        <button 
+        onclick="convertToNumber()"
+        >
+        DECODIFICAR
+        </button>
+
+        <div id="calculate"></div>
+        <p id="copy">&copy; Allan Julie 2020 </p>
+    </div>
+
+    <a 
+    id="hash-tag"
+    href = 
+    "https://en.wikipedia.org/wiki/Binary_code"
+    target="_blank"
+    >
+        #binaryCode
+        <img 
+        src ="../IMAGES/arrow.png" 
+        alt ="arrow">           
+    </a>
+    
+    <script src="../JS/number.js"></script>
+
+</body>
+</html>
